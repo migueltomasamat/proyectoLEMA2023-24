@@ -2,28 +2,48 @@
 <html lang="es">
 	<head>
 		<meta charset="utf-8">
-		<title>Plantilla HTML5</title>
+		<title>Compraventa Miguel</title>
 		<meta name="description" content="Compraventa Miguel">
 		<meta name="author" content="Miguel Ángel Tomás">
 		<link rel="stylesheet" href="css/estilos.css">
 		<link rel="shortcut icon" href="favicon.ico">
+		<script src="https://kit.fontawesome.com/da468aef6c.js" crossorigin="anonymous"></script>
 	</head>
 	<body>
 
         <nav>
 
-            <section>
+            <section class="nav-logo">
                 <a href="index.html"><img src="img/logo.png" alt="Logotipo Compraventa Miguel"></a>
             </section>
-            <section>
-
+            <section class="nav-enlaces">
+				<ul class="nav-enlaces-lista">
+					<li><i class="fa-solid fa-house"></i><a href="index.html" >Inicio</a></li>
+					<li><i class="fa-solid fa-folder-tree"></i><a href="categorias.html" >Categorias</a></li>
+					<li><i class="fa-solid fa-exclamation"></i><a href="mascomprados.html" >Más Comprados</a></li>
+					<li><i class="fa-solid fa-gamepad"></i><a href="concurso.html" >Concurso</a></li>
+					<li><i class="fa-solid fa-circle-info"></i><a href="informacion.html" >Informacion</a></li>
+					<li><i class="fa-solid fa-address-card"></i><a href="about.html" >Sobre Nosotros</a></li>
+					<li><i class="fa-solid fa-handshake"></i><a href="contacto.html" >Contacto</a></li>
+				</ul>
             </section>
 
-            <section>
-
+            <section class="nav-login">
+				<ul>
+					<li><i class="fa-solid fa-user"></i><a href="login.html" >Iniciar Sesión</a></li>
+					<li><i class="fa-solid fa-pen-nib"></i><a href="registro.html" >Registro</a></li>
+				</ul>
+				<div>
+					<img src="img/search.png" alt="logotipo de cuadro de busqueda">
+					<input type="search" name="busqueda" id="inp_busqueda" placeholder="Búscar">
+				</div>
             </section>
 
         </nav>
+		<header>
+			<h1>Compraventa de Coches Miguel</h1>
+			<h2>Tu movilidad, nuestra pasión</h2>
+		</header>
 		<script src="js/scripts.js"></script>
 	</body>
 </html>
